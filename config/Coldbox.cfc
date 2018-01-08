@@ -54,13 +54,13 @@
 		// create a function with the name of the environment so it can be executed if that environment is detected
 		// the value of the environment is a list of regex patterns to match the cgi.http_host.
 		environments = {
-			development = "localhost,^127\.0\.0\.1"
+			development = "localhost,^127\.0\.0\.1,^10\.5\.2\.10"
 		};
 
 		// Module Directives
 		modules = {
 			//Turn to false in production
-			autoReload = false,
+			autoReload = true,
 			// An array of modules names to load, empty means all of them
 			include = [],
 			// An array of modules names to NOT load, empty means none

@@ -2,3 +2,5 @@
 coldbox/*
 testbox/*
 modules/*
+/settings.xml
+/.project
